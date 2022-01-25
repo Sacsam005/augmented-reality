@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="shortcut icon" href="robot.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>3d Model</title>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+
+<body>
+
+    <div class="demo">
+        <model-viewer id="model" camera-controls skybox-image="room.hdr" alt="A 3D astronaut model depicted within a forest" src="robot.glb"
+            animation-name="Running" autoplay ar ar-modes="webxr scene-viewer quick-look" shadow-intensity="1">
+        </model-viewer>
+        <div class="btn-container">
+            <div id="text"></div>
+
+            <button type="button" id="one" onclick="stop()">Stop</button>
+            <button type="button" id="two" onclick="run()">Run</button>
+            <button type="button" id="three" onclick="wave()">Wave</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
