@@ -28,17 +28,17 @@ button {
 }
 
 #one {
-  background: red;
+  background-color: red;
   color: white;
 }
 
 #two{
-  background: green;
+  background-color: green;
   color: white;
 }
 
 #three {
-  background: yellow;
+  background-color: yellow;
   color: white;
 }
 
