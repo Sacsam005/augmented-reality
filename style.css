@@ -27,16 +27,19 @@ button {
   border-radius: 10px;
 }
 
-button:nth-child(1) {
+#one {
   background: red;
+  color: white;
 }
 
-button:nth-child(2) {
+#two{
   background: green;
+  color: white;
 }
 
-button:nth-child(3) {
+#three {
   background: yellow;
+  color: white;
 }
 
 button:focus {
